@@ -55,21 +55,6 @@ header {
   color: var(--ink);
 }
 
-.seal {
-  width: 34px;
-  height: 34px;
-  background: var(--seal);
-  color: var(--paper);
-  font-family: "Spectral", serif;
-  font-size: 20px;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 3px;
-  flex-shrink: 0;
-}
-
 .brand-name {
   font-family: "Spectral", serif;
   font-size: 21px;
@@ -182,21 +167,6 @@ a:hover { text-decoration-thickness: 2px; }
 .paper details li { margin-bottom: 3px; }
 
 /* Featured JMP card on home */
-.jmp-card {
-  border: 1px solid var(--hairline);
-  border-left: 3px solid var(--seal);
-  padding: 22px 24px;
-  margin: 32px 0;
-  background: #fff;
-}
-.jmp-card h3 {
-  font-family: "Spectral", serif;
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 8px;
-}
-.jmp-card p { font-size: 16px; margin-bottom: 12px; }
-
 /* ---------- Buttons ---------- */
 .btn {
   display: inline-block;
