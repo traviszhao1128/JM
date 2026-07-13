@@ -250,3 +250,20 @@ footer {
   nav { gap: 16px; flex-wrap: wrap; }
   .cv-frame { height: 520px; }
 }
+
+.headshot {
+  float: right;
+  width: 175px;
+  height: auto;
+  margin: 8px 0 16px 28px;
+  border-radius: 4px;
+  border: 1px solid var(--hairline);
+}
+
+@media (max-width: 600px) {
+  .headshot {
+    float: none;
+    display: block;
+    margin: 0 auto 20px;
+  }
+}
