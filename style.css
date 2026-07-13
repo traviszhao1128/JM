@@ -252,19 +252,25 @@ footer {
 }
 
 /* ---------- Headshot ---------- */
+.hero {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.hero-text { flex: 1; }
+
 .headshot {
-  float: right;
-  width: 175px;
+  width: 235px;
   height: auto;
-  margin: 8px 0 16px 28px;
+  flex-shrink: 0;
+  margin-top: 10px;
   border-radius: 4px;
   border: 1px solid var(--hairline);
 }
 
 @media (max-width: 600px) {
-  .headshot {
-    float: none;
-    display: block;
-    margin: 0 auto 20px;
-  }
+  .hero { flex-direction: column; align-items: center; }
+  .headshot { width: 200px; margin-top: 0; }
+}
 }
