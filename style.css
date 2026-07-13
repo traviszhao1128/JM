@@ -252,25 +252,30 @@ footer {
 }
 
 /* ---------- Headshot ---------- */
-.hero {
-  display: flex;
-  gap: 40px;
-  align-items: flex-start;
+.hero-side {
+  width: 235px;
+  flex-shrink: 0;
 }
 
-.hero-text { flex: 1; }
-
 .headshot {
-  width: 235px;
+  width: 100%;
   height: auto;
-  flex-shrink: 0;
   margin-top: 10px;
   border-radius: 4px;
   border: 1px solid var(--hairline);
 }
 
+.hero-side .contact-block {
+  margin-top: 16px;
+  padding-top: 0;
+  border-top: none;
+  font-size: 14.5px;
+  line-height: 1.5;
+}
+
 @media (max-width: 600px) {
   .hero { flex-direction: column; align-items: center; }
-  .headshot { width: 200px; margin-top: 0; }
+  .hero-side { width: 200px; }
+  .headshot { margin-top: 0; }
 }
 }
